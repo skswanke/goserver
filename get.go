@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	req, err := http.NewRequest("GET", "https://http-methods.appspot.com/Hungary/?v=true", nil)
+	req, err := http.NewRequest("GET", "https://www.google.com", nil)
 	if err != nil {
 		log.Fatal(err)
 	}
